@@ -1,23 +1,23 @@
 Command line tool that takes one parameter which is an URL to a gzipped CSV file
 stored on a remote server.
 
-● The program must download this gzipped CSV file
-● The file will contain data about each user with various bits of information
-    ○ user_id
-    ○ date_joined
-    ○ spend
-    ○ milliseconds played
-    ○ device_height ­ px
-    ○ device_width ­ px
-● Your program should then output to standard out the following with new line separators
-    ○ Total count of all users
-    ○ number of users with a device resolution of 640x960
-    ○ total spend of all users in dollars
-    ○ user_id of the first user who joined
-● Your program should have sufficient unit tests, with a good coverage. Feel free to use whatever unit testing framework you like or none at all.
-● Your program should treat all data it receives as untrustworthy and unsanitized.
-● Your program should run in a timely manner.
-● Your program should handle common failure cases (returning a non­zero exit status).
+ - The program must download this gzipped CSV file
+ - The file will contain data about each user with various bits of information
+    - user_id
+    - date_joined
+    - spend
+    - milliseconds played
+    - device_height ­ px
+    - device_width ­ px
+ -  Your program should then output to standard out the following with new line separators
+    - Total count of all users
+    - number of users with a device resolution of 640x960
+    - total spend of all users in dollars
+    - user_id of the first user who joined
+ - Your program should have sufficient unit tests, with a good coverage. Feel free to use whatever unit testing framework you like or none at all.
+ - Your program should treat all data it receives as untrustworthy and unsanitized.
+ - Your program should run in a timely manner.
+ - Your program should handle common failure cases (returning a non­zero exit status).
 
 Start
 -----
