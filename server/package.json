@@ -1,0 +1,8 @@
+{
+  "version": "0.0.1",
+  "devDependencies": {
+    "pause-stream": "0.0.11",
+    "chunking-streams": "0.0.8",
+    "delay-stream": "0.0.3"
+  }
+}
